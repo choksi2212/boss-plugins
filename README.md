@@ -31,16 +31,17 @@ New to building BOSS plugins? Start with the **[plugin authoring docs](docs/)**:
 | [admin-role-management](admin-role-management/) | Assign roles to users; the people half of RBAC |
 | [analytics](analytics/) | Vendor-neutral product analytics pipeline (PostHog backend, pluggable sinks, consent + PII scrubbing) |
 | [boss-arcade](boss-arcade/) | Quick competitive games with team leaderboards (2048, Wordle, Mirror Dash, Typing Sprint, Sky Stack) |
-| [boss-atlas](boss-atlas/) | Chat with Claude about the adjacent browser page |
 | [bookmarks](bookmarks/) | Bookmarks |
 | [boss-microkernel-runtime](boss-microkernel-runtime/) | Shared runtime for out-of-process plugin child JVMs; not itself a plugin |
 | [boss-plugin-api](boss-plugin-api/) | The SDK every plugin compiles against, and the bundled system plugin that serves it |
 | [codebase](codebase/) | Project file tree: lazy loading, multi-select, context menu, background watcher |
 | [console](console/) | Captured stdout/stderr with source filtering, search and per-plugin attribution |
+| [deepseek-harness](deepseek-harness/) | Runs DeepSeek Harness (dsh) inside BOSS: installs and supervises it, embeds its web UI in a tab, and exposes dsh_* tools to agents |
 | [dna-origami](dna-origami/) | DNA-origami design + oxDNA simulation, agentic chat-first UI |
 | [docker](docker/) | Local Docker manager - containers, images, volumes, networks, project Dockerfiles/compose, with live logs and service previews |
 | [downloads](downloads/) | Active and completed downloads: progress, speed, pause/resume/reveal |
 | [editor-tab](editor-tab/) | Editor tab |
+| [fluck-agent](fluck-agent/) | Fluck Agent - chat with Claude about the adjacent browser page |
 | [fluck-browser](fluck-browser/) | Fluck browser |
 | [fluck-chatgpt](fluck-chatgpt/) | chatgpt.com in a sidebar panel, with a navigation toolbar |
 | [git-log](git-log/) | Commit history with cherry-pick, revert and checkout |
@@ -55,12 +56,12 @@ New to building BOSS plugins? Start with the **[plugin authoring docs](docs/)**:
 | [rpaengine](rpaengine/) | Replay recorded browser workflows against a live tab |
 | [rparecorder](rparecorder/) | Record browser interactions into replayable workflows |
 | [run-configurations](run-configurations/) | Auto-detected ways to run the open project, grouped by language |
-| [secret-manager](secret-manager/) | Encrypted credentials, Plugin Store API keys, and all AI provider settings |
+| [secret-manager](secret-manager/) | Encrypted credentials, secrets shared with you, Plugin Store API keys, and all AI provider settings |
 | [terminal](terminal/) | Sidebar panel that embeds the terminal-tab plugin's terminal |
 | [terminal-tab](terminal-tab/) | Terminal tab |
 | [tool-evolver](tool-evolver/) | Evolve installed tools with AI CLIs (hot reload + PR); probe memory/leaks/logs |
 | [topofmind](topofmind/) | Every open tab across all workspaces, as a split-aware tree |
-| [user-secret-list](user-secret-list/) | My Secrets: read-only view of owned and shared-with-you secrets |
+| [user-secret-list](user-secret-list/) | **Retired** - folded into secret-manager's "Shared with me" section; ships a notice panel only |
 
 ## Working with Submodules
 
